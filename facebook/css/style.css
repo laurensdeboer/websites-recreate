@@ -1,0 +1,206 @@
+body
+{
+  margin: 0;
+}
+
+.upper-container
+{
+  background-color: #f0f2f5;
+  display: flex;
+  height: 720px;
+  margin-bottom: 25px;
+}
+
+/* Left side */
+.upper-left-container
+{
+  display: flex;
+  width: 1050px;
+}
+
+.name-and-slogan-container
+{
+  margin-top: 200px;
+  margin-left: 460px;
+}
+
+.facebook-name
+{
+  color: #1877f2;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.facebook-slogan
+{
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  width: 500px;
+}
+
+.login-container
+{
+  background-color: white;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.301);
+}
+
+.input-field
+{
+  font-family: Calibri;
+  font-size: 18px;
+  padding: 12px 150px 12px 15px;
+  margin: 0px 15px 10px 15px;
+  border: solid 1px rgb(204, 204, 204);
+  border-radius: 7px;
+}
+
+.input-field::placeholder
+{
+  color: rgb(129, 129, 129);
+}
+
+.login-button
+{
+  background-color: #1877f2;
+  color: white;
+  margin: 10px 15px 15px 15px;
+  padding: 12px 0px 12px 0px;
+  border: none;
+  border-radius: 7px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+}
+
+.login-button:hover
+{
+  cursor: pointer;
+}
+
+.forgot-password-link
+{
+  font-family: Arial;
+  font-size: 14px;
+  color: #1877f2;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.forgot-password-link:hover
+{
+  text-decoration: underline;
+}
+
+.line
+{
+  width: 350px;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.178);
+  margin-bottom: 20px;
+}
+
+.create-acc-button
+{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  width: 190px;
+  padding: 14px 0px 14px 0px;
+  transition: 0.1s;
+}
+
+.create-acc-button:hover
+{
+  background-color: #3b9e27;
+  cursor: pointer;
+}
+
+.create-page-text
+{
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.create-page-link
+{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.create-page-link:hover
+{
+  text-decoration: underline;
+}
+
+.lower-container
+{
+  display: flex;
+  justify-content: center;
+}
+
+.lower-container-contents
+{
+  font-family: Arial;
+  font-size: 12px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.languages-container
+{
+  display: flex;
+  align-items: center;
+}
+
+.language-list-item
+{
+  margin-right: 10px;
+}
+
+.show-more-button
+{
+  border: solid 1px rgba(0, 0, 0, 0.089);
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.show-more-button:hover
+{
+  cursor: pointer;
+  background-color: rgb(235, 234, 234);
+}
+
+.line2
+{
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.178);
+  margin-bottom: 20px;
+}
+
+.at
+{
+  color: rgb(88, 88, 88);
+  font-size: 11px;
+}
